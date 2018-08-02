@@ -4,7 +4,7 @@ import gql from 'graphql-tag'
 import withLoggedInUser from '../lib/withLoggedInUser';
 
 export const transactionFields = gql`
-fragment TransactionFields on Transaction {
+fragment transactionFields on Transaction {
   id
   uuid
   description
